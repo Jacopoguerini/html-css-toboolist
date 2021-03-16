@@ -7,9 +7,16 @@
 }
 
 /* header */
+.logo-header{
+    display: inline-block;
+    vertical-align: middle;
+}
 .title{
     display: inline-block;
     background-color: white;
+    line-height: 60px;
+    vertical-align: middle;
+    font-size: 40px;
 }
 
 /* main */
@@ -19,7 +26,6 @@ main{
     background-color: red;
     color: #444851;
 }
-
 .container{
     width: 800px;
     margin: auto;
@@ -28,8 +34,11 @@ main{
 
 .button{
     display: inline-block;
+    font-size: 11px;
 }
-
+#task{
+    padding-left: 20px;
+}
 /* options */
 .down-arrow{
         width: 0; 
@@ -46,6 +55,11 @@ main{
 .wrong{
     display: inline-block;
 }
+
 .detail{
     display: inline-block;
+}
+
+.editorial{
+
 }
