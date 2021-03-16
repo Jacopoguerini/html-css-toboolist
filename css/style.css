@@ -5,8 +5,14 @@
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
+body{
+    background-color: rgb(238, 242, 245);
+}
 
 /* header */
+header{
+    background-color: white;
+}
 .logo-header{
     display: inline-block;
     vertical-align: middle;
@@ -24,35 +30,34 @@ hr{
 
 /* main */
 main{
-    width: 1000px;
-    padding: 100px;
-    background-color: rgb(238, 242, 245);
+    padding: 50px;
     color: #444851;
 }
 .container{
-    width: 800px;
+    width: 70%;
     margin: auto;
     background-color: white;
 }
 
-.button{
+button{
     display: inline-block;
-    height: 30px;
-    vertical-align: middle;
-    font-size: 11px;
+    font-weight: bold;
+    line-height: 5px;
+    font-size: 10px;
     padding: 10px;
     margin: 10px 0px 5px 0px;
     border-radius: 5px;
-    border: solid;
 }
 #add-task{
-    margin-left: 20px;
+    margin-left: 50px;
     color: white;
     background-color: #47adf1;
+    border-color: #47adf1;
 }
 #add-section{
     color: #dadee1;
     background-color: white;
+    border-color: #dadee1;
 }
 
 /* options */
@@ -65,11 +70,13 @@ main{
         display: inline-block;
         vertical-align: middle;
 }
+
 section{
     padding-left: 50px;
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
 .option{
     font-size: 18px;
     font-weight: bold;
@@ -77,29 +84,34 @@ section{
 }
 
 .choice{
-    font-size: 12px;
-    margin: 15px;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 15px;
 }
 .right{
     display: inline-block;
     height: 15px;
     width: 15px;
-    font-size: 8px;
+    line-height: 15px;
+    font-size: 10px;
+    text-align: center;
+    vertical-align: middle;
     color: #2AFF8E;
     border: solid #2AFF8E 1px;
     border-radius: 50%;
-    text-align: center;
     margin-right: 5px;
 }
 .wrong{
     display: inline-block;
     height: 15px;
     width: 15px;
+    line-height: 15px;
     font-size: 10px;
+    text-align: center;
+    vertical-align: middle;
     color: red;
     border: solid red 1px;
     border-radius: 50%;
-    text-align: center;
     margin-right: 5px;
 }
 
