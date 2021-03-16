@@ -23,7 +23,7 @@
 main{
     width: 1000px;
     padding: 100px;
-    background-color: red;
+    background-color: rgba(218, 222, 225, 0.5);
     color: #444851;
 }
 .container{
@@ -34,11 +34,24 @@ main{
 
 .button{
     display: inline-block;
+    height: 30px;
+    vertical-align: middle;
     font-size: 11px;
+    padding: 10px;
+    margin: 10px 0px 5px 0px;
+    border-radius: 5px;
+    border: solid;
 }
-#task{
-    padding-left: 20px;
+#add-task{
+    margin-left: 20px;
+    color: white;
+    background-color: #47adf1;
 }
+#add-section{
+    color: #dadee1;
+    background-color: white;
+}
+
 /* options */
 .down-arrow{
         width: 0; 
@@ -47,19 +60,47 @@ main{
         border-right: 5px solid transparent;
         border-top: 5px solid #444851;
         display: inline-block;
+        vertical-align: middle;
+}
+section{
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.option{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 30px;
 }
 
+.choice{
+    font-size: 16px;
+    font-weight: normal;
+    margin: 15px;
+}
 .right{
     display: inline-block;
+    height: 15px;
+    width: 15px;
+    font-size: 10px;
+    color: #2AFF8E;
+    border: solid #2AFF8E 1px;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 5px;
 }
 .wrong{
     display: inline-block;
+    height: 15px;
+    width: 15px;
+    font-size: 10px;
+    color: red;
+    border: solid red 1px;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 5px;
 }
 
 .detail{
     display: inline-block;
-}
-
-.editorial{
-
 }
