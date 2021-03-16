@@ -1,0 +1,37 @@
+/* general*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header */
+.title{
+    display: inline-block;
+}
+
+/* main */
+main{
+    width: 1000px;
+    padding: 100px;
+    background-color: red;
+}
+
+.container{
+        width: 800px;
+        margin: auto;
+        background-color: white;
+}
+
+.button{
+    display: inline-block;
+}
+
+/* options */
+.right{
+    display: inline-block;
+}
+.detail{
+    display: inline-block;
+}
