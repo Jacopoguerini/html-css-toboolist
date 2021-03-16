@@ -9,6 +9,7 @@
 /* header */
 .title{
     display: inline-block;
+    background-color: white;
 }
 
 /* main */
@@ -16,12 +17,13 @@ main{
     width: 1000px;
     padding: 100px;
     background-color: red;
+    color: #444851;
 }
 
 .container{
-        width: 800px;
-        margin: auto;
-        background-color: white;
+    width: 800px;
+    margin: auto;
+    background-color: white;
 }
 
 .button{
@@ -29,7 +31,19 @@ main{
 }
 
 /* options */
+.down-arrow{
+        width: 0; 
+        height: 0; 
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-top: 5px solid #444851;
+        display: inline-block;
+}
+
 .right{
+    display: inline-block;
+}
+.wrong{
     display: inline-block;
 }
 .detail{
