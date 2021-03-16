@@ -16,14 +16,17 @@
     background-color: white;
     line-height: 60px;
     vertical-align: middle;
-    font-size: 40px;
+    font-size: 32px;
+}
+hr{
+    border-color: rgb(238, 242, 245);
 }
 
 /* main */
 main{
     width: 1000px;
     padding: 100px;
-    background-color: rgba(218, 222, 225, 0.5);
+    background-color: rgb(238, 242, 245);
     color: #444851;
 }
 .container{
@@ -68,21 +71,20 @@ section{
     padding-bottom: 30px;
 }
 .option{
-    font-size: 22px;
+    font-size: 18px;
     font-weight: bold;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .choice{
-    font-size: 16px;
-    font-weight: normal;
+    font-size: 12px;
     margin: 15px;
 }
 .right{
     display: inline-block;
     height: 15px;
     width: 15px;
-    font-size: 10px;
+    font-size: 8px;
     color: #2AFF8E;
     border: solid #2AFF8E 1px;
     border-radius: 50%;
@@ -103,4 +105,13 @@ section{
 
 .detail{
     display: inline-block;
+    color: white;
+    font-size: 9px;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 5px 10px;
+    background-color: blue;
+}
+.editorial{
+    background-color: #47adf1;
 }
